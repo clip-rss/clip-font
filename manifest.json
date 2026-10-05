@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "fonts": [
+    {
+      "id": "lxgw-wenkai",
+      "name": "霞鹜文楷",
+      "family": "LXGW WenKai",
+      "version": "1.522",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "lxgw-wenkai/OFL.txt",
+      "files": [
+        {
+          "weight": 300,
+          "format": "ttf",
+          "file": "lxgw-wenkai/LXGWWenKai-Light.ttf",
+          "size": 28267156,
+          "sha256": "526ec70cbb0118e871d481f8179e03ff045f0e4d72d080dcca87950c4ab27cca"
+        },
+        {
+          "weight": 400,
+          "format": "ttf",
+          "file": "lxgw-wenkai/LXGWWenKai-Regular.ttf",
+          "size": 25575676,
+          "sha256": "39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009"
+        },
+        {
+          "weight": 500,
+          "format": "ttf",
+          "file": "lxgw-wenkai/LXGWWenKai-Medium.ttf",
+          "size": 25379848,
+          "sha256": "d4bdeb38a39151d74d084cba5090f8cb7d20bf83eedb78c35939ae70b9f4e3f6"
+        }
+      ]
+    }
+  ]
+}
