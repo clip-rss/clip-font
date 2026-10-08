@@ -1,1 +1,14 @@
 .DS_Store
+
+Thumbs.db
+Desktop.ini
+desktop.ini
+ehthumbs.db
+
+*.swp
+*.tmp
+*~
+
+*.zip
+*.rar
+*.7z
