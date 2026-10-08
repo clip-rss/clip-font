@@ -12,3 +12,7 @@ ehthumbs.db
 *.zip
 *.rar
 *.7z
+
+# 字体二进制不入库,随 GitHub Releases 发布
+*.ttf
+*.otf

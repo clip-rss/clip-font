@@ -8,6 +8,7 @@
       "version": "1.522",
       "license": "SIL OFL 1.1",
       "licenseFile": "lxgw-wenkai/OFL.txt",
+      "url": "https://github.com/clip-rss/clip-font/releases/latest/download",
       "files": [
         {
           "weight": 300,
@@ -29,6 +30,41 @@
           "file": "lxgw-wenkai/LXGWWenKai-Medium.ttf",
           "size": 25379848,
           "sha256": "d4bdeb38a39151d74d084cba5090f8cb7d20bf83eedb78c35939ae70b9f4e3f6"
+        }
+      ]
+    },
+    {
+      "id": "chill-huosong",
+      "name": "寒蝉活宋体",
+      "family": "ChillHuoSong_F",
+      "version": "1.000",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "chill-huosong/LICENSE.txt",
+      "url": "https://github.com/clip-rss/clip-font/releases/latest/download",
+      "files": [
+        {
+          "style": "Regular",
+          "weight": 400,
+          "format": "otf",
+          "file": "chill-huosong/ChillHuoSong_F_Regular.otf",
+          "size": 32135884,
+          "sha256": "6f9c500239c812fe5ca02051d2b61171f32b62badc8cd31791bc9f1d2faece8b"
+        },
+        {
+          "style": "ConRegular",
+          "weight": 400,
+          "format": "otf",
+          "file": "chill-huosong/ChillHuoSong_F_ConRegular.otf",
+          "size": 30026220,
+          "sha256": "fbed30f9d6defbc6bc7bd86d13e2e6b74c8c1426fe7c210aaf0f31cbf870de2c"
+        },
+        {
+          "style": "Bold",
+          "weight": 700,
+          "format": "otf",
+          "file": "chill-huosong/ChillHuoSong_F_Bold.otf",
+          "size": 30970204,
+          "sha256": "dad1ed0504b202a55d26729004bcb759c4139def3ace7ac94dd79a8347554753"
         }
       ]
     }
