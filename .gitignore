@@ -16,3 +16,5 @@ ehthumbs.db
 # 字体二进制不入库,随 GitHub Releases 发布
 *.ttf
 *.otf
+
+.claude/skills/
