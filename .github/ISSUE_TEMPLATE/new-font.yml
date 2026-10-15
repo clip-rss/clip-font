@@ -1,0 +1,58 @@
+name: 新增字体
+description: 提交一款新字体,以接入 clip-font 发布通道
+title: "[新字体] <字体名称>"
+labels: ["new-font", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢提交新字体!请填写以下信息。带 * 的为必填项。
+        会根据此模板将字体登记进 `manifest.json` 并发布到 GitHub Releases。
+  - type: input
+    id: font-name
+    attributes:
+      label: 字体名称 *
+      description: 字体的中文名(将用作 Issue 标题与 manifest 的 `name`)
+      placeholder: 例:霞鹜文楷
+    validations:
+      required: true
+  - type: input
+    id: font-url
+    attributes:
+      label: 字体链接地址 *
+      description: 字体下载页、直接可下载的字体文件(ttf/otf)链接,或官方仓库地址
+      placeholder: 例:https://github.com/lxgw/LxgwWenKai/releases
+    validations:
+      required: true
+  - type: input
+    id: font-family
+    attributes:
+      label: 字族名 (Family)
+      description: 字体的内部字族名,便于匹配 manifest 的 `family` 字段
+      placeholder: 例:LXGW WenKai
+    validations:
+      required: false
+  - type: input
+    id: font-weight
+    attributes:
+      label: 需要的字重 / 风格
+      description: 如 Light(300)、Regular(400)、Medium(500)、Bold(700)、窄体等;缺省表示全部
+      placeholder: 例:Regular(400)、Bold(700)
+    validations:
+      required: false
+  - type: input
+    id: font-license
+    attributes:
+      label: 开源协议
+      description: 若已知,填写协议(如 SIL OFL 1.1、Apache 2.0);发布需附许可证文本
+      placeholder: 例:SIL OFL 1.1
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: 备注
+      description: 其它补充说明:如使用场景、许可注意事项、需要特别区分的风格等
+      placeholder: 例:商用免费;宽度较窄,适合竖排版
+    validations:
+      required: false
