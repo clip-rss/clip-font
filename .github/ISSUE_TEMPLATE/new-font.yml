@@ -11,7 +11,7 @@ body:
   - type: input
     id: font-name
     attributes:
-      label: 字体名称 *
+      label: 字体名称
       description: 字体的中文名(将用作 Issue 标题与 manifest 的 `name`)
       placeholder: 例:霞鹜文楷
     validations:
@@ -19,7 +19,7 @@ body:
   - type: input
     id: font-url
     attributes:
-      label: 字体链接地址 *
+      label: 字体链接地址
       description: 字体下载页、直接可下载的字体文件(ttf/otf)链接,或官方仓库地址
       placeholder: 例:https://github.com/lxgw/LxgwWenKai/releases
     validations:
